@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="tT3AU6" name="JUCEProjectTemplate" projectType="guiapp" useAppConfig="1"
+              addUsingNamespaceToJuceHeader="1" displaySplashScreen="1" jucerFormatVersion="1"
+              companyName="Owner" companyCopyright="Owner" companyWebsite="owner.com"
+              companyEmail="owner@owner.com" cppLanguageStandard="latest">
+  <MAINGROUP id="yPExhe" name="JUCEProjectTemplate">
+    <GROUP id="{7FF84550-36CD-F260-0700-4EE4851A0AF3}" name="assets">
+      <GROUP id="{153C9031-DA10-BE68-AA66-0F221076F51F}" name="fonts">
+        <GROUP id="{1BDA3559-A053-DF9B-4EFE-FA96AB46685B}" name="IBM_Plex_Sans">
+          <FILE id="sKJ1Dx" name="IBMPlexSans-Bold.ttf" compile="0" resource="1"
+                file="assets/fonts/IBM_Plex_Sans/IBMPlexSans-Bold.ttf"/>
+          <FILE id="dhiYuV" name="IBMPlexSans-BoldItalic.ttf" compile="0" resource="1"
+                file="assets/fonts/IBM_Plex_Sans/IBMPlexSans-BoldItalic.ttf"/>
+          <FILE id="kOUNLd" name="IBMPlexSans-ExtraLight.ttf" compile="0" resource="1"
+                file="assets/fonts/IBM_Plex_Sans/IBMPlexSans-ExtraLight.ttf"/>
+          <FILE id="qoRcvI" name="IBMPlexSans-ExtraLightItalic.ttf" compile="0"
+                resource="1" file="assets/fonts/IBM_Plex_Sans/IBMPlexSans-ExtraLightItalic.ttf"/>
+          <FILE id="YqiUdf" name="IBMPlexSans-Italic.ttf" compile="0" resource="1"
+                file="assets/fonts/IBM_Plex_Sans/IBMPlexSans-Italic.ttf"/>
+          <FILE id="u4ZlO6" name="IBMPlexSans-Light.ttf" compile="0" resource="1"
+                file="assets/fonts/IBM_Plex_Sans/IBMPlexSans-Light.ttf"/>
+          <FILE id="VVgd8N" name="IBMPlexSans-LightItalic.ttf" compile="0" resource="1"
+                file="assets/fonts/IBM_Plex_Sans/IBMPlexSans-LightItalic.ttf"/>
+          <FILE id="D9no9q" name="IBMPlexSans-Medium.ttf" compile="0" resource="1"
+                file="assets/fonts/IBM_Plex_Sans/IBMPlexSans-Medium.ttf"/>
+          <FILE id="miR7WA" name="IBMPlexSans-MediumItalic.ttf" compile="0" resource="1"
+                file="assets/fonts/IBM_Plex_Sans/IBMPlexSans-MediumItalic.ttf"/>
+          <FILE id="Nua87M" name="IBMPlexSans-Regular.ttf" compile="0" resource="1"
+                file="assets/fonts/IBM_Plex_Sans/IBMPlexSans-Regular.ttf"/>
+          <FILE id="cUcRDT" name="IBMPlexSans-SemiBold.ttf" compile="0" resource="1"
+                file="assets/fonts/IBM_Plex_Sans/IBMPlexSans-SemiBold.ttf"/>
+          <FILE id="y2Y8xY" name="IBMPlexSans-SemiBoldItalic.ttf" compile="0"
+                resource="1" file="assets/fonts/IBM_Plex_Sans/IBMPlexSans-SemiBoldItalic.ttf"/>
+          <FILE id="uyOr0v" name="IBMPlexSans-Thin.ttf" compile="0" resource="1"
+                file="assets/fonts/IBM_Plex_Sans/IBMPlexSans-Thin.ttf"/>
+          <FILE id="tGMbf8" name="IBMPlexSans-ThinItalic.ttf" compile="0" resource="1"
+                file="assets/fonts/IBM_Plex_Sans/IBMPlexSans-ThinItalic.ttf"/>
+          <FILE id="TFr1bz" name="OFL.txt" compile="0" resource="1" file="assets/fonts/IBM_Plex_Sans/OFL.txt"/>
+        </GROUP>
+        <GROUP id="{CAD3511B-5727-ACA9-2563-12F5BE1A6F15}" name="Roboto">
+          <FILE id="dV93OF" name="LICENSE.txt" compile="0" resource="1" file="assets/fonts/Roboto/LICENSE.txt"/>
+          <FILE id="WyeRem" name="Roboto-Black.ttf" compile="0" resource="1"
+                file="assets/fonts/Roboto/Roboto-Black.ttf"/>
+          <FILE id="brDD5K" name="Roboto-BlackItalic.ttf" compile="0" resource="1"
+                file="assets/fonts/Roboto/Roboto-BlackItalic.ttf"/>
+          <FILE id="Zhifbl" name="Roboto-Bold.ttf" compile="0" resource="1" file="assets/fonts/Roboto/Roboto-Bold.ttf"/>
+          <FILE id="JLVPl7" name="Roboto-BoldItalic.ttf" compile="0" resource="1"
+                file="assets/fonts/Roboto/Roboto-BoldItalic.ttf"/>
+          <FILE id="t7uV52" name="Roboto-Italic.ttf" compile="0" resource="1"
+                file="assets/fonts/Roboto/Roboto-Italic.ttf"/>
+          <FILE id="A5seSQ" name="Roboto-Light.ttf" compile="0" resource="1"
+                file="assets/fonts/Roboto/Roboto-Light.ttf"/>
+          <FILE id="p5CDiC" name="Roboto-LightItalic.ttf" compile="0" resource="1"
+                file="assets/fonts/Roboto/Roboto-LightItalic.ttf"/>
+          <FILE id="qdLISU" name="Roboto-Medium.ttf" compile="0" resource="1"
+                file="assets/fonts/Roboto/Roboto-Medium.ttf"/>
+          <FILE id="OYjgc4" name="Roboto-MediumItalic.ttf" compile="0" resource="1"
+                file="assets/fonts/Roboto/Roboto-MediumItalic.ttf"/>
+          <FILE id="VDoGT8" name="Roboto-Regular.ttf" compile="0" resource="1"
+                file="assets/fonts/Roboto/Roboto-Regular.ttf"/>
+          <FILE id="svITXT" name="Roboto-Thin.ttf" compile="0" resource="1" file="assets/fonts/Roboto/Roboto-Thin.ttf"/>
+          <FILE id="Y6dYD5" name="Roboto-ThinItalic.ttf" compile="0" resource="1"
+                file="assets/fonts/Roboto/Roboto-ThinItalic.ttf"/>
+        </GROUP>
+        <GROUP id="{3BF3CBCD-75E8-4D43-FBBC-3A316A1ABEBD}" name="Roboto_Mono">
+          <FILE id="yfNqkn" name="LICENSE.txt" compile="0" resource="1" file="assets/fonts/Roboto_Mono/LICENSE.txt"/>
+          <FILE id="WgytnY" name="RobotoMono-Bold.ttf" compile="0" resource="1"
+                file="assets/fonts/Roboto_Mono/RobotoMono-Bold.ttf"/>
+          <FILE id="VQtAou" name="RobotoMono-BoldItalic.ttf" compile="0" resource="1"
+                file="assets/fonts/Roboto_Mono/RobotoMono-BoldItalic.ttf"/>
+          <FILE id="YskfVq" name="RobotoMono-Italic.ttf" compile="0" resource="1"
+                file="assets/fonts/Roboto_Mono/RobotoMono-Italic.ttf"/>
+          <FILE id="Rlv4iE" name="RobotoMono-Light.ttf" compile="0" resource="1"
+                file="assets/fonts/Roboto_Mono/RobotoMono-Light.ttf"/>
+          <FILE id="I06Nbd" name="RobotoMono-LightItalic.ttf" compile="0" resource="1"
+                file="assets/fonts/Roboto_Mono/RobotoMono-LightItalic.ttf"/>
+          <FILE id="Vpc4sE" name="RobotoMono-Medium.ttf" compile="0" resource="1"
+                file="assets/fonts/Roboto_Mono/RobotoMono-Medium.ttf"/>
+          <FILE id="ULBIt3" name="RobotoMono-MediumItalic.ttf" compile="0" resource="1"
+                file="assets/fonts/Roboto_Mono/RobotoMono-MediumItalic.ttf"/>
+          <FILE id="Tq4qyy" name="RobotoMono-Regular.ttf" compile="0" resource="1"
+                file="assets/fonts/Roboto_Mono/RobotoMono-Regular.ttf"/>
+          <FILE id="vNGZvG" name="RobotoMono-Thin.ttf" compile="0" resource="1"
+                file="assets/fonts/Roboto_Mono/RobotoMono-Thin.ttf"/>
+          <FILE id="N1w61a" name="RobotoMono-ThinItalic.ttf" compile="0" resource="1"
+                file="assets/fonts/Roboto_Mono/RobotoMono-ThinItalic.ttf"/>
+        </GROUP>
+      </GROUP>
+      <GROUP id="{57E6BAED-7276-C84A-69AB-0BDB7D829D1A}" name="logo">
+        <FILE id="Ugs0Wh" name="logo.png" compile="0" resource="1" file="assets/logo/logo.png"/>
+      </GROUP>
+    </GROUP>
+    <GROUP id="{E2D1DAA6-FB45-0E25-6DA8-C5FD61E92CD5}" name="source">
+      <GROUP id="{0AC92DD5-83E1-D8F7-9042-2B19EAE74B13}" name="graphics">
+        <FILE id="OJJfKr" name="MainLookAndFeel.cpp" compile="0" resource="0"
+              file="Source/graphics/MainLookAndFeel.cpp"/>
+        <FILE id="XtJyq6" name="MainLookAndFeel.h" compile="0" resource="0"
+              file="Source/graphics/MainLookAndFeel.h"/>
+      </GROUP>
+      <GROUP id="{CEB788C8-8A70-6E66-F840-A4B9199659A2}" name="main">
+        <FILE id="vPMdMI" name="Main.cpp" compile="0" resource="0" file="source/main/Main.cpp"/>
+        <FILE id="WF7s1f" name="MainComponent.cpp" compile="0" resource="0"
+              file="source/main/MainComponent.cpp"/>
+        <FILE id="xiApcb" name="MainComponent.h" compile="0" resource="0" file="source/main/MainComponent.h"/>
+        <FILE id="BkGQ0I" name="MainWindow.cpp" compile="0" resource="0" file="source/main/MainWindow.cpp"/>
+        <FILE id="mUnioD" name="MainWindow.h" compile="0" resource="0" file="source/main/MainWindow.h"/>
+      </GROUP>
+      <FILE id="bEPRk9" name="Module.cpp" compile="1" resource="0" file="source/Module.cpp"/>
+      <FILE id="qRqx6q" name="Module.h" compile="0" resource="0" file="source/Module.h"/>
+    </GROUP>
+  </MAINGROUP>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1" JUCE_USE_WINRT_MIDI="0" JUCE_ASIO="0"
+               JUCE_WASAPI="1" JUCE_DIRECTSOUND="1" JUCE_ALSA="1" JUCE_JACK="1"
+               JUCE_BELA="0" JUCE_USE_ANDROID_OBOE="1" JUCE_USE_OBOE_STABILIZED_CALLBACK="0"
+               JUCE_USE_ANDROID_OPENSLES="0" JUCE_DISABLE_AUDIO_MIXING_WITH_OTHER_APPS="0"
+               JUCE_USE_FLAC="1" JUCE_USE_OGGVORBIS="1" JUCE_USE_MP3AUDIOFORMAT="0"
+               JUCE_USE_LAME_AUDIO_FORMAT="1" JUCE_USE_WINDOWS_MEDIA_FORMAT="1"
+               JUCE_PLUGINHOST_VST="0" JUCE_PLUGINHOST_VST3="1" JUCE_PLUGINHOST_AU="1"
+               JUCE_PLUGINHOST_LADSPA="1" JUCE_CUSTOM_VST3_SDK="0" JUCE_USE_CDREADER="1"
+               JUCE_USE_CDBURNER="1" JUCE_FORCE_DEBUG="0" JUCE_LOG_ASSERTIONS="1"
+               JUCE_CHECK_MEMORY_LEAKS="1" JUCE_DONT_AUTOLINK_TO_WIN32_LIBRARIES="0"
+               JUCE_INCLUDE_ZLIB_CODE="1" JUCE_USE_CURL="1" JUCE_LOAD_CURL_SYMBOLS_LAZILY="1"
+               JUCE_CATCH_UNHANDLED_EXCEPTIONS="1" JUCE_ALLOW_STATIC_NULL_VARIABLES="0"
+               JUCE_ENABLE_ALLOCATION_HOOKS="1" JUCE_ASSERTION_FIRFILTER="1"
+               JUCE_DSP_USE_INTEL_MKL="0" JUCE_DSP_USE_SHARED_FFTW="0" JUCE_DSP_USE_STATIC_FFTW="0"
+               JUCE_DSP_ENABLE_SNAP_TO_ZERO="1" JUCE_EXECUTE_APP_SUSPEND_ON_BACKGROUND_TASK="0"
+               JUCE_USE_COREIMAGE_LOADER="1" JUCE_USE_DIRECTWRITE="1" JUCE_DISABLE_COREGRAPHICS_FONT_SMOOTHING="0"
+               JUCE_ENABLE_REPAINT_DEBUGGING="0" JUCE_USE_XRANDR="1" JUCE_USE_XINERAMA="1"
+               JUCE_USE_XSHM="1" JUCE_USE_XRENDER="1" JUCE_USE_XCURSOR="1" JUCE_WIN_PER_MONITOR_DPI_AWARE="1"
+               JUCE_WEB_BROWSER="0" JUCE_USE_WIN_WEBVIEW2="0" JUCE_ENABLE_LIVE_CONSTANT_EDITOR="0"/>
+  <EXPORTFORMATS>
+    <ANDROIDSTUDIO targetFolder="builds/android" smallIcon="Ugs0Wh" bigIcon="Ugs0Wh"
+                   enableGNUExtensions="0">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="JUCEProjectTemplate"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="JUCEProjectTemplate"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_analytics" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_basics" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_cryptography" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_dsp" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_opengl" path="../../JUCE/modules"/>
+      </MODULEPATHS>
+    </ANDROIDSTUDIO>
+    <LINUX_MAKE targetFolder="builds/linux" smallIcon="Ugs0Wh" bigIcon="Ugs0Wh"
+                enableGNUExtensions="0">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="JUCEProjectTemplate"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="JUCEProjectTemplate"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_analytics" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_basics" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_cryptography" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_dsp" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_opengl" path="../../JUCE/modules"/>
+      </MODULEPATHS>
+    </LINUX_MAKE>
+    <VS2015 targetFolder="builds/vs2015" smallIcon="Ugs0Wh" bigIcon="Ugs0Wh">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="JUCEProjectTemplate"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="JUCEProjectTemplate"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_analytics" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_basics" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_cryptography" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_dsp" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_opengl" path="../../JUCE/modules"/>
+      </MODULEPATHS>
+    </VS2015>
+    <VS2017 targetFolder="builds/vs2017" smallIcon="Ugs0Wh" bigIcon="Ugs0Wh">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="JUCEProjectTemplate"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="JUCEProjectTemplate"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_analytics" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_basics" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_cryptography" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_dsp" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_opengl" path="../../JUCE/modules"/>
+      </MODULEPATHS>
+    </VS2017>
+    <VS2019 targetFolder="builds/vs2019" smallIcon="Ugs0Wh" bigIcon="Ugs0Wh">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="JUCEProjectTemplate"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="JUCEProjectTemplate"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_analytics" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_basics" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_cryptography" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_dsp" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_opengl" path="../../JUCE/modules"/>
+      </MODULEPATHS>
+    </VS2019>
+    <XCODE_IPHONE targetFolder="builds/iOS" smallIcon="Ugs0Wh" bigIcon="Ugs0Wh"
+                  microphonePermissionNeeded="1" UIStatusBarHidden="0" cameraPermissionNeeded="0"
+                  iosBluetoothPermissionNeeded="0" iosInAppPurchases="0" iosContentSharing="0"
+                  iosBackgroundAudio="0" iosBackgroundBle="0" iosAppGroups="0"
+                  iCloudPermissions="0" iosPushNotifications="0" pListPreprocess="0"
+                  UIFileSharingEnabled="0" UISupportsDocumentBrowser="0" keepCustomXcodeSchemes="0"
+                  useHeaderMap="0" enableGNUExtensions="0">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="JUCEProjectTemplate"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="JUCEProjectTemplate"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_analytics" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_basics" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_cryptography" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_dsp" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_opengl" path="../../JUCE/modules"/>
+      </MODULEPATHS>
+    </XCODE_IPHONE>
+    <XCODE_MAC targetFolder="builds/macOS" smallIcon="Ugs0Wh" bigIcon="Ugs0Wh"
+               microphonePermissionNeeded="1" cameraPermissionNeeded="0" iosBluetoothPermissionNeeded="0"
+               sendAppleEventsPermissionNeeded="0" iosInAppPurchases="0" iosPushNotifications="0"
+               pListPreprocess="0" keepCustomXcodeSchemes="0" useHeaderMap="0"
+               enableGNUExtensions="0">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="JUCEProjectTemplate"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="JUCEProjectTemplate"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_analytics" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_basics" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_cryptography" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_dsp" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_opengl" path="../../JUCE/modules"/>
+      </MODULEPATHS>
+    </XCODE_MAC>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_analytics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_cryptography" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_dsp" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_opengl" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+  <LIVE_SETTINGS>
+    <WINDOWS/>
+  </LIVE_SETTINGS>
+</JUCERPROJECT>

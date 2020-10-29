@@ -30,3 +30,37 @@
 *.exe
 *.out
 *.app
+
+# JUCE generated content
+Builds
+builds
+JuceLibraryCode
+
+# Doxygen
+Doxygen/doc
+
+# Windows Temp Cache Files
+[Tt]humbs.db
+
+# macOS Finder and whatnot
+.DS_Store
+*.DS_Store
+*.swp
+*~
+
+# Other source repository archive directories (protects when importing)
+.hg
+.svn
+CVS
+
+# Various files
+*.pkg
+*.zip
+*.exe
+*.app
+*.msi
+*.vst3
+*.component
+*.vst
+*.aax
+*.aaxplugin
